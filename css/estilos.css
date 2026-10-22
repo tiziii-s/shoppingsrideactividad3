@@ -1,0 +1,8 @@
+/* Estilos complementarios al Design System (Tailwind hace el resto) */
+.campo{display:block;width:100%;margin-top:.25rem;border:1px solid #A38E7A;border-radius:.75rem;padding:.6rem .8rem;background:#fff;color:#1E1E1E}
+.campo[aria-invalid="true"]{border:2px solid #9b1c1c;background:#fff5f5}
+.error{color:#9b1c1c;font-size:.85rem;min-height:1.1rem;margin-top:.2rem}
+.error:not(:empty)::before{content:"⚠ "}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #776005;outline-offset:2px}
+.pin{background:#776005;color:#fff;border:2px solid #fff;border-radius:9999px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-weight:700;box-shadow:0 1px 4px #0006}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
